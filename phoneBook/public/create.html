@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>PhoneBook!</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="javascripts/front.js"></script>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+</head>
+
+<body>
+    <div id="p1"><ul>
+        <li><a class="active" href="../create.html">New Contact</a></li>
+        <li><a href="../get.html">Get Contact</a></li>
+        <li><a href="../delete.html">Delete Contact</a></li>
+    </ul></div>
+     
+
+    <form id="phoneNumForm" action="">
+        <label for="FirstName">FirstName: </label><input type="text" id="firstName" placeholder="FirstName"><br>
+        <label for="LastName">LastName: </label><input type="text" id="lastName" placeholder="LastName"><br>
+        <label for="phoneNumber">PhoneNumber: </label><input type="text" id="phoneNumber" placeHolder="PhoneNumber"><br>
+
+        <label for="query">Query: </label><input type="text" id="query" placeHolder="Query"><br>
+    </form>
+
+    <button id="postComment">Add Contact</button>
+    <div id="json"></div>
+    <div id="done"></div>
+</body>
+
+</html>
