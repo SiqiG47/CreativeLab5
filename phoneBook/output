@@ -1,0 +1,240 @@
+nohup: ignoring input
+Connected
+[0mGET /delete.html [36m304 [0m5.287 ms - -[0m
+[0mGET /javascripts/front.js [32m200 [0m3.527 ms - 2584[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.708 ms - -[0m
+[0mGET /get.html [36m304 [0m0.359 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.305 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.208 ms - -[0m
+In Get Route
+[ { _id: 5beefb5bca8c23570ba33aec,
+    FirstName: '',
+    LastName: '',
+    PhoneNumber: '',
+    __v: 0 },
+  { _id: 5beefb65ca8c23570ba33aed,
+    FirstName: '',
+    LastName: '',
+    PhoneNumber: '',
+    __v: 0 },
+  { _id: 5beefda7561b6e5860c64d70,
+    FirstName: 'siqi',
+    LastName: 'gao',
+    PhoneNumber: '8019160057',
+    __v: 0 },
+  { _id: 5bef1551c860865f0cdee0fa,
+    FirstName: 'Jerry',
+    LastName: 'Lee',
+    PhoneNumber: '80000',
+    __v: 0 },
+  { _id: 5bef156fc860865f0cdee0fb,
+    FirstName: 'jle',
+    LastName: 'vdfv',
+    PhoneNumber: 'adfvfd',
+    __v: 0 },
+  { _id: 5bef1587c860865f0cdee0fc,
+    FirstName: 'cdkfj',
+    LastName: 'vrtrt',
+    PhoneNumber: '234324',
+    __v: 0 },
+  { _id: 5bef15c0c860865f0cdee0fd,
+    FirstName: 'fsdjnfd',
+    LastName: 'fldnfl',
+    PhoneNumber: 'ferfgreg',
+    __v: 0 } ]
+[0mGET /comment [36m304 [0m30.454 ms - -[0m
+[0mGET /delete.html [36m304 [0m0.341 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.317 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.889 ms - -[0m
+In Delete Route
+[0mDELETE /comment [32m200 [0m1.535 ms - 2[0m
+(node:24601) DeprecationWarning: collection.remove is deprecated. Use deleteOne, deleteMany, or bulkWrite instead.
+[0mGET /get.html [36m304 [0m0.437 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.292 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.190 ms - -[0m
+In Get Route
+[]
+[0mGET /comment [32m200 [0m27.718 ms - 2[0m
+In Get Route
+[]
+[0mGET /comment [36m304 [0m2.249 ms - -[0m
+[0mGET /create.html [36m304 [0m0.670 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.525 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.342 ms - -[0m
+In Post route
+{ FirstName: 'Siqi', LastName: 'Gao', PhoneNumber: '801916' }
+[0mPOST /comment [32m200 [0m30.970 ms - 2[0m
+[0mGET /get.html [36m304 [0m0.882 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.551 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.254 ms - -[0m
+In Get Route
+[]
+[0mGET /comment?q=undefined [32m200 [0m8.230 ms - 2[0m
+In Get Route
+[]
+[0mGET /comment?q=undefined [36m304 [0m2.060 ms - -[0m
+[0mGET /create.html [36m304 [0m0.659 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.472 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.225 ms - -[0m
+[0mGET /get.html [36m304 [0m0.355 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.319 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.416 ms - -[0m
+In Get Route
+[ { _id: 5bef17213a2d9e60196aa272,
+    FirstName: 'Siqi',
+    LastName: 'Gao',
+    PhoneNumber: '801916',
+    __v: 0 } ]
+[0mGET /comment [32m200 [0m3.397 ms - 103[0m
+In Get Route
+[]
+[0mGET /comment?q=undefined [36m304 [0m17.250 ms - -[0m
+[0mGET /get.html [36m304 [0m1.042 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.363 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.307 ms - 2193[0m
+In Get Route
+[ { _id: 5bef17213a2d9e60196aa272,
+    FirstName: 'Siqi',
+    LastName: 'Gao',
+    PhoneNumber: '801916',
+    __v: 0 } ]
+[0mGET /comment [36m304 [0m5.529 ms - -[0m
+[0mGET /get.html [36m304 [0m0.804 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.358 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.659 ms - 2192[0m
+In Get Route
+[ { _id: 5bef17213a2d9e60196aa272,
+    FirstName: 'Siqi',
+    LastName: 'Gao',
+    PhoneNumber: '801916',
+    __v: 0 } ]
+[0mGET /comment [36m304 [0m2.370 ms - -[0m
+[0mGET /get.html [32m200 [0m0.885 ms - 1014[0m
+[0mGET /javascripts/front.js [36m304 [0m0.331 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.094 ms - -[0m
+In Get Route
+[ { _id: 5bef17213a2d9e60196aa272,
+    FirstName: 'Siqi',
+    LastName: 'Gao',
+    PhoneNumber: '801916',
+    __v: 0 } ]
+[0mGET /comment [36m304 [0m2.817 ms - -[0m
+[0mGET /delete.html [32m200 [0m1.069 ms - 1012[0m
+[0mGET /javascripts/front.js [36m304 [0m0.347 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.235 ms - -[0m
+In Delete Route
+[0mDELETE /comment?q=Siqi [32m200 [0m0.569 ms - 2[0m
+[0mGET /get.html [36m304 [0m0.297 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.333 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.241 ms - -[0m
+[0mGET /create.html [32m200 [0m0.794 ms - 1418[0m
+[0mGET /javascripts/front.js [36m304 [0m0.342 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.216 ms - -[0m
+[0mGET /get.html [36m304 [0m0.666 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.336 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.944 ms - -[0m
+In Get Route
+[]
+[0mGET /comment [32m200 [0m1.510 ms - 2[0m
+In Get Route
+[]
+[0mGET /comment?q=undefined [36m304 [0m1.480 ms - -[0m
+[0mGET /create.html [36m304 [0m1.405 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.298 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.234 ms - -[0m
+In Post route
+{ FirstName: 'Siqi', LastName: 'Gao', PhoneNumber: '8019160057' }
+[0mPOST /comment [32m200 [0m4.214 ms - 2[0m
+[0mGET /create.html [36m304 [0m0.356 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.952 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.443 ms - 2171[0m
+[0mGET /get.html [36m304 [0m0.327 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.353 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.212 ms - -[0m
+In Get Route
+[ { _id: 5bef18693a2d9e60196aa273,
+    FirstName: 'Siqi',
+    LastName: 'Gao',
+    PhoneNumber: '8019160057',
+    __v: 0 } ]
+[0mGET /comment [32m200 [0m2.404 ms - 107[0m
+[0mGET /get.html [36m304 [0m0.339 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.315 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.390 ms - 2122[0m
+In Get Route
+[ { _id: 5bef18693a2d9e60196aa273,
+    FirstName: 'Siqi',
+    LastName: 'Gao',
+    PhoneNumber: '8019160057',
+    __v: 0 } ]
+[0mGET /comment [36m304 [0m5.186 ms - -[0m
+[0mGET /create.html [36m304 [0m0.346 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.773 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.697 ms - -[0m
+In Post route
+{ FirstName: 'Gao', LastName: 'Gao', PhoneNumber: '29384' }
+[0mPOST /comment [32m200 [0m2.515 ms - 2[0m
+[0mGET /delete.html [32m200 [0m0.542 ms - 1045[0m
+[0mGET /javascripts/front.js [36m304 [0m0.331 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.205 ms - -[0m
+[0mGET /delete.html [36m304 [0m0.359 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.318 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.425 ms - 2164[0m
+[0mGET /create.html [32m200 [0m0.494 ms - 1446[0m
+[0mGET /javascripts/front.js [36m304 [0m0.309 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.225 ms - -[0m
+[0mGET /get.html [32m200 [0m0.564 ms - 1042[0m
+[0mGET /javascripts/front.js [36m304 [0m0.843 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.214 ms - -[0m
+[0mGET /delete.html [36m304 [0m0.319 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.310 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.198 ms - -[0m
+[0mGET /delete.html [32m200 [0m0.545 ms - 1030[0m
+[0mGET /javascripts/front.js [36m304 [0m0.308 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.222 ms - -[0m
+[0mGET /get.html [36m304 [0m0.489 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.320 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.996 ms - -[0m
+In Get Route
+[ { _id: 5bef18693a2d9e60196aa273,
+    FirstName: 'Siqi',
+    LastName: 'Gao',
+    PhoneNumber: '8019160057',
+    __v: 0 },
+  { _id: 5bef18e03a2d9e60196aa274,
+    FirstName: 'Gao',
+    LastName: 'Gao',
+    PhoneNumber: '29384',
+    __v: 0 } ]
+[0mGET /comment [32m200 [0m2.590 ms - 207[0m
+[0mGET /create.html [36m304 [0m0.342 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.303 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.203 ms - -[0m
+In Post route
+{ FirstName: 'Siqi', LastName: 'dfdsfds', PhoneNumber: 'fadf' }
+[0mPOST /comment [32m200 [0m2.582 ms - 2[0m
+[0mGET /get.html [36m304 [0m0.364 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m0.313 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.203 ms - -[0m
+In Get Route
+[ { _id: 5bef18693a2d9e60196aa273,
+    FirstName: 'Siqi',
+    LastName: 'Gao',
+    PhoneNumber: '8019160057',
+    __v: 0 },
+  { _id: 5bef18e03a2d9e60196aa274,
+    FirstName: 'Gao',
+    LastName: 'Gao',
+    PhoneNumber: '29384',
+    __v: 0 },
+  { _id: 5bef19f63a2d9e60196aa275,
+    FirstName: 'Siqi',
+    LastName: 'dfdsfds',
+    PhoneNumber: 'fadf',
+    __v: 0 } ]
+[0mGET /comment [32m200 [0m4.432 ms - 311[0m
+[0mGET /delete.html [36m304 [0m0.332 ms - -[0m
+[0mGET /javascripts/front.js [36m304 [0m4.075 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.202 ms - -[0m
+In Delete Route
+[0mDELETE /comment [32m200 [0m0.342 ms - 2[0m

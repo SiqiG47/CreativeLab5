@@ -57,6 +57,7 @@ $(document).ready(function() {
     
     $("#deleteComments").click(function(e) {
         e.preventDefault();
+        var url = "comment";
         $.ajax({
             url: url,
             type: "Delete",

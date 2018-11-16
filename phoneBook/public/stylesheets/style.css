@@ -105,3 +105,26 @@ input {
     opacity: 1;
     right: 0;
 }
+
+#json{
+    text-align: center;
+    color:#4CAF50;
+    font: 18px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+}
+
+#done{
+    text-align: center;
+    color:#4CAF50;
+    font: 18px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+}
+#comments{
+    text-align: center;
+    color:#4CAF50;
+    font: 18px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+}
+#output{
+    background-color: #FDA9A9;
+}
