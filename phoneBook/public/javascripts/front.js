@@ -2,7 +2,8 @@
 $(document).ready(function() {
     $("#postComment").click(function(e) {
         e.preventDefault();
-        var myobj = { FirstName: $("#firstName").val(), LastName: $("#lastName").val(), PhoneNumber: $("#phoneNumber").val() };
+        console.log($("#firstName").val());
+        var myobj = { FirstName: $("#FirstName").val(), LastName: $("#LastName").val(), PhoneNumber: $("#PhoneNumber").val() };
         var jobj = JSON.stringify(myobj);
         $("#json").text(jobj);
 
@@ -21,7 +22,7 @@ $(document).ready(function() {
 
     $("#getOneComment").click(function(e) {
         e.preventDefault();
-        var URL = "comment?q=" + $("#query").val();
+        var URL = "comment?q=" + $("#Query").val();
         console.log(URL);
         $.getJSON(URL, function(data) {
             console.log(data);
@@ -67,7 +68,7 @@ $(document).ready(function() {
     });
     $("#deleteOneComment").click(function(e) {
         e.preventDefault();
-        var URL = "comment?q=" + $("#query").val();
+        var URL = "comment?q=" + $("#Query").val();
         $.ajax({
             url: URL,
             type: "Delete",
