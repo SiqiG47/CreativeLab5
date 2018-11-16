@@ -8,18 +8,23 @@
 </head>
 
 <body>
-    <div id="p1"><ul>
-        <li><a class="active" href="../create.html">New Contact</a></li>
-        <li><a href="../get.html">Get Contact</a></li>
-        <li><a class="active" href="../delete.html">Delete Contact</a></li>
-    </ul></div>
-     
-    <form id="phoneNumForm" action="">
-         <label for="query">Query: </label><input type="text" id="query" placeHolder="Query"><br>
-    </form>
+    <div id="p1">
+        <ul>
+            <li><a class="active" href="../create.html">New Contact</a></li>
+            <li><a href="../get.html">Get Contact</a></li>
+            <li><a class="active" href="../delete.html">Delete Contact</a></li>
+        </ul>
+    </div>
 
-    <button id="deleteOneComment">Delete Contact by Query</button>
-    <button id="deleteComments">Delete All</button>
+    <section class="input">
+        <form id="phoneNumForm" action="">
+            <br><label for="query">ㅤㅤQuery: </label><input type="text" id="query" placeHolder="Query"><br><br>
+        </form>
+    </section>
+
+
+    <button class="button" id="deleteOneComment"><span>delete contact</span></button>
+    <button class="button" id="deleteComments"><span>delete all contact</span></button>
     <div id="done"></div>
     <div id="comments"></div>
 </body>

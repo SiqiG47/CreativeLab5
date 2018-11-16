@@ -14,16 +14,25 @@
         <li><a href="../delete.html">Delete Contact</a></li>
     </ul></div>
      
-
+<section class="input">
     <form id="phoneNumForm" action="">
-        <label for="FirstName">FirstName: </label><input type="text" id="firstName" placeholder="FirstName"><br>
-        <label for="LastName">LastName: </label><input type="text" id="lastName" placeholder="LastName"><br>
-        <label for="phoneNumber">PhoneNumber: </label><input type="text" id="phoneNumber" placeHolder="PhoneNumber"><br>
-
-        <label for="query">Query: </label><input type="text" id="query" placeHolder="Query"><br>
+        <div id="firstName">
+            <br><label for="FirstName">ㅤㅤFirstName: </label><input type="text" id="firstName" placeholder="FirstName"><br><br>
+        </div>
+        <div id="lastName">
+            <label for="LastName">ㅤㅤLastName: </label><input type="text" id="lastName" placeholder="LastName"><br><br>
+        </div>
+        <div id="phoneNumber">
+            <label for="phoneNumber">ㅤㅤPhoneNumber: </label><input type="text" id="phoneNumber" placeHolder="PhoneNumber"><br><br>
+        </div>
+        <div id="query">
+            <label for="query">ㅤㅤQuery: </label><input type="text" id="query" placeHolder="Query"><br><br>
+        </div>
+    
     </form>
+</section>
 
-    <button id="postComment">Add Contact</button>
+    <button class="button" id="postComment"><span>Add Contact</span></button>
     <div id="json"></div>
     <div id="done"></div>
 </body>
